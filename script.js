@@ -1,4 +1,3 @@
-<script>
 Webflow.push(function() {
     document.getElementById('bedrooms').value = "1";
     document.getElementById('bathrooms').value = "1";
@@ -174,8 +173,7 @@ $(document).ready(function() {
     });
   });
 });
-</script>
-<script>
+
 let dateInput;
 
 function updateDateDisplay() {
@@ -304,10 +302,7 @@ $(document).ready(function() {
 
     updateDateDisplay();
 });
-</script>
 
-
-<script>
 $(document).ready(function() {
     const howOftenSelect = $('#How-often'); // Select element with ID "How-often"
     const oftenDisplayElems = document.querySelectorAll('.oftendisplay'); // All elements with class "oftendisplay"
@@ -330,4 +325,3 @@ $(document).ready(function() {
     // Call updateOftenDisplay initially to display the default value
     updateOftenDisplay();
 });
-</script>
